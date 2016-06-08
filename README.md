@@ -14,5 +14,5 @@
   * acceptCallback: the function that is going to be trigger when the click accept
   * cancelCallback: the function that is going to be trigger when the user click cancel
   
-###Test Foler
+###Test Folder
   The file inside this folder is an example that use this Modal Box
