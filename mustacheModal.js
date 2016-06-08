@@ -4,7 +4,7 @@ var launchModal=(function(){
     modalWindow.id="dialog-box";
     document.body.appendChild(modalWindow);
 	modalButton.addEventListener("click",function(){
-		dialogBox.style.display='block';
+		modalWindow.style.display='block';
 	});
   return function(confObj){
         var acceptFunction=function(){
