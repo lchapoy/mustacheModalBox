@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.js"></script>
+    <link  href="test.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <button id="modalButton">Open Modal</button>
+    <script  src="../mustacheModal.js"></script>
+	<script  >
+		var dialogBox=launchModal(
+			{
+				title:"Dialog Box Text",
+				message:"new Message",
+				acceptCallback:function(){console.log("accept")},
+				cancelCallback:function(){console.log("cancel")}
+			});				
+	</script>
+</body>
+</html>
